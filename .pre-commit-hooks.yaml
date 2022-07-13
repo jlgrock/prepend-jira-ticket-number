@@ -1,0 +1,8 @@
+-   id: prepend-jira-number
+    name: Jira Ticket Number Prepender
+    description: Appends ticket number above commit message based on the branch name
+    entry: prepender-jira-number.spy
+    language: python
+    files: ''
+    always_run: true
+    stages: [prepare-commit-msg]
