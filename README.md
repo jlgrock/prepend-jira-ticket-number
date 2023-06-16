@@ -5,7 +5,7 @@ Pre-Commit hook that prepends JIRA ticket number and URL in the commit message.
 ## Adding to your `.pre-commit-config.yaml`
 
 ```yaml
--   repo: https://github.com/jlgrock/prepend-jira-ticket-link
+-   repo: https://github.com/jlgrock/prepend-jira-ticket-number
     rev: v0.2.0
     hooks:
     -   id: prepend-jira-link
